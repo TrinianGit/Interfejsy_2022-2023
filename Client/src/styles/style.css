@@ -1,0 +1,295 @@
+body {
+    background-image: linear-gradient(rgba(66, 66, 66, 0.45), rgba(66, 66, 66, 0.45)), url(https://cdn.xsd.cz/original/065a899d27853db89580d810dfd7ec0b.jpg);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.tooltip-inner{
+  white-space: pre-line;
+}
+
+.form-check-input:checked {
+    background-color: rgb(22 192 135);
+    border-color: #198754;
+}
+
+.Pillblack {
+    background-color: rgba(2, 2, 2, 0.305);
+    color:white;
+}
+
+.Pillultrablack {
+    width: 90vw;
+    height: 90%;
+    border-radius: 40px;
+    background-color: rgba(2, 2, 2, 0.717);
+    color:white;
+}
+
+.Pillwhite {
+    background-color: rgba(255, 255, 255, 0.419);
+}
+
+.Pillwhite a {
+    color:black !important;
+}
+
+.Pillblack a {
+    color:white;
+}
+
+.england {
+    background-image: url('https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gb.svg');
+    height: 56.25px;
+    width: 75px;
+    max-width: 75px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.poland {
+    background-origin: border-box;
+    background-image: url('https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pl.svg');
+    height: 56.25px;
+    width: 75px;
+    max-width: 75px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.miniform {
+    background-color: rgba(125, 224, 193, 0.319);
+    border-color: rgba(131, 131, 131, 0.971);
+    border-width: 5px;
+    border-radius: 100px;
+    border-style: solid;
+    min-height: 450px;
+}
+
+.miniformLaptop {
+    background-color: rgba(125, 224, 193, 0.319);
+    border-color: rgba(131, 131, 131, 0.971);
+    border-width: 5px;
+    border-radius: 100px;
+    border-style: solid;
+}
+
+.miniformdiff {
+    background-color: rgba(27, 204, 148, 0.637);
+    border-color: rgba(131, 131, 131, 0.971);
+    border-radius: 100px;
+    min-height: 540px;
+}
+
+.miniformdiffLaptop {
+    background-color: rgba(27, 204, 148, 0.637);
+    border-color: rgba(131, 131, 131, 0.971);
+    border-radius: 100px;
+}
+
+.bigPad {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.smallPad {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.smallPadLaptop {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.noyPad {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.Icon {
+    color: black; 
+    border-radius: 5px; 
+    width:30px !important;
+    height: 30px;
+    align-self: center;
+}
+
+.OrangeButton {
+    background-color: #ca8103;
+    border-color: #ca8103;
+    border-radius: 1000px;
+}
+
+.form-control {
+    background-color: rgb(107, 210, 176) !important;
+    border-color: rgb(1, 156, 104) !important;
+}
+
+.input-group-text {
+    background-color: rgb(22, 192, 135) !important;
+    border-color: rgb(1, 156, 104) !important;
+    
+}
+.Advanced, .Advanced:active{
+    color:white;
+}
+.Advanced:hover {
+    color: rgb(192, 192, 192);
+}
+
+.Compare {
+    background-color: rgb(107, 210, 176) !important;
+    border-color: rgb(1, 156, 104) !important;
+    width: 70%;
+    color: black !important;
+}
+
+.dropdown-toggle {
+    color: black !important;
+}
+
+.dropdown-toggle:hover {
+    color: black !important;
+    background-color: rgb(22, 192, 135) !important;
+}
+
+.MainPageDropdown {
+  position: absolute;
+  width: 67% !important;
+  left: -7px !important;
+}
+
+.dropdown-menu {
+    background-color: rgb(107, 210, 176) !important;
+    width: 47%;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgb(23, 73, 56) !important;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000000;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: rgb(53, 165, 128) !important;
+}
+
+.dropdown-item {
+    text-align: center !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(22, 192, 135) !important;
+    text-align: center !important;
+}
+
+.SmallButton {
+    width: 40% !important;
+}
+
+.ExtraSmallButton {
+    width:49% !important;
+    max-height: 40px;
+}
+
+.Smalltext {
+    font-size: 14px;
+    font-style: bold;
+}
+
+.Labeltext {
+    font-size: 17px;
+    font-style: bold;
+}
+
+.Arrow {
+    background-color: rgb(22, 192, 135) !important;
+    border-color: rgb(22, 192, 135) !important;
+    color: white;
+    border-radius: 10px;
+    min-width: 80px;
+    min-height: 60px;
+}
+
+.CarrierImg {
+    width: 34%;
+    margin-left: 33% !important;
+}
+
+.Label {
+    background-color: rgb(22, 192, 135) !important;
+}
+
+.Shadow {
+    box-shadow: 0px 0px 30px rgb(0, 0, 0) !important;
+}
+
+.TextButton {
+    background-color: rgb(18, 82, 61) !important;
+    border-radius: 10px;
+    color: white;
+    font-style: bold;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: rgb(22, 192, 135) !important;
+}
+
+.w-45 {
+    width: 45% !important;
+}
+
+.TicketDis {
+    background-color: rgb(107, 210, 176) !important;
+    border-color: rgb(1, 156, 104) !important;
+}
+
+.TicketDisCount{
+    background-color: rgb(107, 210, 176) !important;
+    width: 1%;
+}
+
+.BuyButton {
+    height: 60px;
+}
+
+.TicketDisNum {
+    min-width: 65px !important;
+}
+
+.TicketDisType {
+    min-width: 397px !important;
+    font-size: 14px;
+}
+
+.GreenButton {
+    background-color: rgb(32, 146, 108) !important;
+    color: white;
+    border-radius: 20px;
+}
+
+.RedButton {
+    background-color: rgb(209, 63, 63) !important;
+    color: white;
+    border-radius: 20px;
+}

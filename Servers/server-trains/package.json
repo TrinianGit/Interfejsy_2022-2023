@@ -1,0 +1,33 @@
+{
+  "name": "puppeteer-example",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "A working example of Puppeteer on Glitch.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "puppeteer": "^1.14.0",
+    "cors": "^2.8.5",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.5.2",
+    "sqlite3": "^5.1.4",
+    "request-promise-native": "^1.0.9",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/puppeteer-example"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "puppeteer"
+  ]
+}

@@ -1,0 +1,69 @@
+.timeline {
+	width: 690px !important;
+	height: 20px !important;
+	list-style: none;
+	text-align: justify;
+	margin: auto;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgba(191,128,11,1)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(23, 126, 194) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+}
+
+.miniform-timeline {
+    font-size: 13px;
+    background-color: rgba(125, 224, 193, 0.319);
+    border-color: rgba(131, 131, 131, 0.971);
+    border-width: 5px;
+    border-radius: 100px;
+    border-style: solid;
+    min-height: 240px;
+}
+
+.timeline-text {
+	width:800px !important;
+	height: 60px !important;
+	list-style: none;
+	text-align: justify;
+	margin: auto;
+}
+
+.timeline-text:after {display: inline-block; content: ""; width: 100%;}
+
+.timeline:after {display: inline-block; content: ""; width: 100%;}
+
+.timeline li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #282cfa;
+	text-align: center;
+	line-height: 1.2;
+	position: relative;
+	border-radius: 50%;
+}
+
+.timeline-text li {
+	display: inline-block;
+	width: 130px;
+	height: 20px;
+	text-align: center;
+	line-height: 1.2;
+	position: relative;
+
+}
+
+.timeline li:after {
+	display: inline-block;
+	content: attr(data-text);
+	font-size: 16px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.StartPoint{
+    background-color: rgb(29, 189, 29) !important;
+}
+
+.EndPoint{
+    background-color: orangered !important;
+}
